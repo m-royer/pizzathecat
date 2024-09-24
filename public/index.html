@@ -3,37 +3,65 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza The Cat</title>
+    <title>PIZZA THE CAT | HOME</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Vast+Shadow&display=swap" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://oubliettering.neocities.org/onionring/onionring.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
     <main>
       
       <nav>
-        <p class="nav-title">NAVIGATION</p>
+        <div class="nav-title">
+          <div class="nav-hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+          </div>
+          NAVIGATION
+        </div>
         <div class="nav-contents">
-          <a>HOME</a>
-          <a>MY DAY</a>
-          <a>TIMELINE</a>
-          <a>GALLERY</a>
-          <a>GUESTBOOK</a>
-          <a>ABOUT</a>
+          <a href="/index.html">HOME</a>
+          <a href="/day.html">MY DAY</a>
+          <a href="/gallery.html">GALLERY</a>
+          <a href="/guestbook.html">GUESTBOOK</a>
+          <a href="/about.html">ABOUT</a>
         </div>
       </nav>
       
-      <div class="scrolling-title">PIZZATHECATPIZZATHECATPIZZATHECAT</div>
+      <div class="scrolling-title">
+        <div class="scrolling-title-text">PIZZATHECAT</div>
+        <div class="scrolling-title-text">PIZZATHECAT</div>
+        <div class="scrolling-title-text">PIZZATHECAT</div>
+      </div>
       
       <div class="content">
         <h1>I AM PIZZA THE CAT</h1>
-        <img src="images/pizza-split-colors.png" class="anim-rotate" />
+        <div class="container-wrapper">
+          <div class="cat-stand left-cat">
+            <img src="images/pizza_stand.webp" />
+          </div>
+          <div class="container">
+            <div class="title-wrapper">
+              Hello, human!
+            </div>
+            <div class="p-1">
+              <p>My name iz Pizza, last name Schitt. I think I am a himalayan breed of house cat, at least, that's what they tell me. I like nappping, human attention, and Chicken in a Biskit. Despite what my name implies, my favorite food is not pizza! I was actually named after the first food I ate after being rescued by my human.</p>
+                <img src="images/pizza_sup.webp" alt="Pizza the cat in his orange shirt looking at the camera with a speech bubble saying sup." />
+            </div>
+          </div>
+          <div class="cat-stand right-cat">
+            <img src="images/pizza_stand.webp" />
+          </div>
+        </div>
       </div>
+
       <div id='orbital-zone-ring'>
         <script type="text/javascript" src="https://yordazone.neocities.org/onionring/onionring-variables.js"></script>
         <script type="text/javascript" src="https://yordazone.neocities.org/onionring/onionring-widget.js"></script>
       </div>
     </main>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
