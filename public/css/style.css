@@ -175,10 +175,12 @@ nav {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  padding-top: 2rem;
 }
 
 .container-wrapper {
   display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 900px;
 }
@@ -202,11 +204,9 @@ nav {
 
 .container {
   background: #FFF;
-  flex-grow: 1;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 5px 0 #222;
-  flex-grow: 1;
 }
 
 .container .title-wrapper {
@@ -217,9 +217,29 @@ nav {
   background: #05b9ff;
 }
 
+.container h2 {
+  font-family: "Bevan", serif;
+  font-weight: 800;
+  text-transform:uppercase;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+  color: #444;
+}
+
 .container p {
   line-height: 1.1;
   margin-bottom: 1em;
+}
+
+.container img {
+  border-radius: 2px;
+}
+
+.two-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .anim-rotate {
@@ -235,6 +255,14 @@ nav {
   }
 }
 
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
 
 .flex {
   display: flex;
@@ -242,6 +270,10 @@ nav {
 
 .p-1 {
   padding: 1rem;
+}
+
+.m-1 {
+  margin: 1rem;
 }
 
 
@@ -285,7 +317,6 @@ nav {
   }
 
   #orbital-zone-ring {
-    display: none;
     grid-area: 5 / 1 / 7 / 3;
   }
 
@@ -308,6 +339,16 @@ nav {
 
   .nav-show {
     height: auto;
+  }
+
+  /* two grid becomes one grid! */
+  .two-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-reverse {
+    order: -1;
   }
 }
 
