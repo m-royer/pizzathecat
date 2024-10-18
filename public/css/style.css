@@ -209,12 +209,22 @@ nav {
   box-shadow: 5px 5px 0 #222;
 }
 
+.container-accent-top {
+  height: 10px;
+  background: #05b9ff;
+}
+
+.container-accent-bottom {
+  height: 10px;
+  background: #05b9ff;
+}
+
 .container .title-wrapper {
   font-family: "Bevan", serif;
   font-size: 1.5rem;
   line-height: 1.4;
   padding: 0.5rem 1rem;
-  background: #05b9ff;
+  background: #eaf3fb;
 }
 
 .container h2 {
@@ -232,7 +242,7 @@ nav {
 }
 
 .container img {
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .two-grid {
@@ -283,9 +293,18 @@ em {
 #orbital-zone-ring {
   grid-area: 3 / 2 / 4 / 3;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #FFF;
+}
+
+#orbital-zone-ring table {
+  border-collapse:separate;
+}
+
+#orbital-zone-ring a {
+  color: #ffb703;
 }
 
 
