@@ -34,10 +34,6 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 html,body {
   height: 100%;
@@ -297,10 +293,6 @@ em {
   align-items: center;
   justify-content: center;
   color: #FFF;
-}
-
-#orbital-zone-ring table {
-  border-collapse:separate;
 }
 
 #orbital-zone-ring a {
